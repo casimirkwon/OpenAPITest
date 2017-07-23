@@ -165,11 +165,11 @@ public class OAuthUtils {
 			}
 
 		} catch (ClientProtocolException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 			throw new RuntimeException(e.getMessage());
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 			throw new RuntimeException(e.getMessage());
 		}
@@ -236,10 +236,10 @@ public class OAuthUtils {
 			//map = handleResponse(response);
 
 		} catch (ClientProtocolException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		} finally {
 			get.releaseConnection();
@@ -295,11 +295,11 @@ public class OAuthUtils {
 			accessToken = map.get(HttpConstants.ACCESS_TOKEN);
 
 		} catch (ClientProtocolException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 			throw new RuntimeException(e.getMessage());
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 			throw new RuntimeException(e.getMessage());
 		}
@@ -361,11 +361,11 @@ public class OAuthUtils {
 			//map = handleResponse(response);
 
 		} catch (ClientProtocolException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 			throw new RuntimeException(e.getMessage());
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 			throw new RuntimeException(e.getMessage());
 		}
@@ -408,7 +408,7 @@ public class OAuthUtils {
 			oauthLoginResponse = (Map<String, String>) new JSONParser()
 					.parse(response);
 		} catch (ParseException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 			throw new RuntimeException();
                 } catch (Exception e) {
@@ -452,7 +452,7 @@ public class OAuthUtils {
 			}
 
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 			throw new RuntimeException("Could not parse URLEncoded Response");
 		}
