@@ -34,8 +34,9 @@
                 // Define properties
                 var AUTH_ENDPOINT = "https://sandbox-apigw.koscom.co.kr/auth/oauth/v2/authorize";
                 var RESPONSE_TYPE = "code";
+                <% // TODO [실습 2-01] 자신의 앱 ID와 secert을 설정하여 Oauth 인증을 수행한다. %>
                 var CLIENT_ID = "l7xxf234248b6fbd42a1a6844861524b2320";
-                var REDIRECT_URI = "http://localhost:8084/callbacknew";
+                var REDIRECT_URI = "http://localhost:8080/callbacknew";
                 var SCOPE = "test";
                 var STATE = "<%=sessionHash%>";
 

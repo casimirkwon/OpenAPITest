@@ -5,7 +5,8 @@ public class HttpConstants {
     
         public static final String API_GW_ENDPOINT = "https://sandbox-apigw.koscom.co.kr/v1/";
         public static final String OAUTH_TOKEN_REQUEST_URI = "https://sandbox-apigw.koscom.co.kr/auth/oauth/v2/token";
-        public static final String OAUTH_REDIRECT_URI ="http://localhost:8084/callbacknew";
+        public static final String OAUTH_REDIRECT_URI ="http://localhost:8080/callbacknew";
+        // TODO [실습 2-01] 자신의 앱 ID와 secert을 설정하여 Oauth 인증을 수행한다.
         public static final String THIS_APP_CLIENT_ID ="l7xxf234248b6fbd42a1a6844861524b2320";
         public static final String THIS_APP_CLIENT_SECRET ="12f7d5f8bac34a769696098425f3b1cb";
         
